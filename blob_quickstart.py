@@ -39,7 +39,7 @@ try:
     with open(file=upload_file_path, mode="rb") as data:
         blob_client.upload_blob(data)
 
-    print("\nListing blobs...")
+    print("\nListing blobs ...")
 
     # List the blobs in the container
     blob_list = container_client.list_blobs()
@@ -56,13 +56,13 @@ try:
         download_file.write(container_client.download_blob(blob.name).readall())
 
     # Clean up
-    print("\nPress the Enter key to begin clean up")
+    print("\nPress the Enter key to begin resource clean up")
     input()
 
-    print("Deleting blob container...")
+    print("Deleting blob container ...")
     container_client.delete_container()
 
-    print("Deleting the local source and downloaded files...")
+    print("Deleting the local source and downloaded files ...")
     os.remove(upload_file_path)
     os.remove(download_file_path)
     os.rmdir(local_path)
