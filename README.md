@@ -1,6 +1,6 @@
 # Create and connect to an Azure Blob Storage account
 
-`blob-storage-quickstart-python` is a demo project that shows how to create an Azure storage account using the [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/overview)(azd) and connect to it locally using a console application to perform essential tasks.
+`blob-storage-quickstart-python` is a demo project that shows how to create an Azure storage account using the [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/overview)(azd), and how to connect to the storage account locally using a console application to perform essential tasks.
 
 ## Prerequisites
 
