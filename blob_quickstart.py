@@ -5,7 +5,7 @@ from azure.storage.blob import BlobServiceClient
 try:
     print("Azure Blob Storage Python quickstart sample")
 
-    account_url = "https://xstorageaccounttest.blob.core.windows.net"
+    account_url = "https://<storage-account-name>.blob.core.windows.net"
     default_credential = DefaultAzureCredential()
 
     # Create the BlobServiceClient object
